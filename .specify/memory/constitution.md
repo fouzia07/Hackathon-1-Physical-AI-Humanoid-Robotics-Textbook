@@ -1,55 +1,55 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A (initial constitution) → 1.0.0
+Modified principles: N/A
+Added sections: Core Principles for AI-driven textbook project
+Removed sections: N/A
+Templates requiring updates:
+- ✅ .specify/templates/plan-template.md - Constitution Check section will align with new principles
+- ✅ .specify/templates/spec-template.md - Scope/requirements alignment
+- ✅ .specify/templates/tasks-template.md - Task categorization reflects new principles
+Follow-up TODOs: None
+-->
+
+# AI-Driven Textbook Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-Driven, Deterministic Generation
+All textbook content and functionality must follow spec-driven development practices. Generation processes must be deterministic and reproducible, ensuring consistent outputs from identical inputs. This ensures auditability and verifiability of all textbook content.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Technical Accuracy and Verifiability
+All content must be technically accurate and verifiable from source materials. No hallucinations or speculative content is allowed. All claims must be traceable to verified sources or be self-evidently correct.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Clear Pedagogical Flow (Concept → System → Practice)
+Content must follow a clear pedagogical progression from Concept (theoretical understanding) to System (practical implementation) to Practice (application and reinforcement). Each section must clearly indicate its place in this learning flow.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Modular, AI-Native Design
+The textbook system must be built with modular components that work seamlessly with AI tools. Content and structure should be optimized for AI processing, retrieval, and generation while maintaining human readability.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. RAG Chatbot Integrity (NON-NEGOTIABLE)
+The integrated RAG chatbot must only respond with information from indexed textbook content. It must reject out-of-scope queries and clearly indicate when information is not available in the source material.
 
-### [PRINCIPLE_6_NAME]
+### VI. Content Standards Compliance
+All content must strictly adhere to established standards: Markdown format (.md/.mdx), Docusaurus platform compatibility, GitHub Pages deployment readiness, and scope limitation to approved specifications only.
 
+## Additional Constraints
+- No assumptions beyond specifications
+- No placeholder or speculative content
+- Reproducible and auditable outputs only
+- Technical accuracy and verifiability required for all content
+- Strict adherence to pedagogical flow (Concept → System → Practice)
+- AI-native design for optimal RAG integration
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Development Workflow
+- All content follows spec-driven development via Spec-Kit Plus
+- Claude Code used for AI-assisted generation and maintenance
+- Content validation against source materials required
+- RAG chatbot integration testing mandatory
+- Deployment via Docusaurus → GitHub Pages pipeline
+- Book builds and deploys successfully with accurate content retrieval
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All development must comply with these constitutional principles. Amendments require documentation of reasoning and impact assessment. The constitution supersedes all other practices and serves as the ultimate authority for project decisions.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-24 | **Last Amended**: 2025-12-24

@@ -1,0 +1,36 @@
+# Content Structure Contract for Docusaurus Module Plan
+
+## Chapter File Interface
+- **File Format**: .md (Markdown)
+- **Frontmatter Requirements**:
+  - title: string (required)
+  - description: string (required, for SEO)
+  - tags: array of strings (required)
+  - learning_objectives: array of strings (required)
+  - summary: string (required)
+
+## Content Structure Requirements
+- **Mandatory Sections**:
+  - Learning Objectives section with bullet points
+  - Concept section with theoretical content
+  - System section with practical implementation
+  - Practice section with exercises/applications
+  - Summary section
+
+## File Path Contract
+- **Module Directory**: docs/modules/[module-name]/
+- **Chapter Files**: docs/modules/[module-name]/chapter-[number]-[topic].md
+- **Chapter Count**: Exactly 3 chapters per module as specified
+
+## Validation Rules
+- All content must be technically accurate
+- Content must follow pedagogical flow: Concept → System → Practice
+- Headings must follow proper hierarchy (h1, h2, h3, etc.)
+- All content must be RAG-indexable (proper headings and structure)
+
+## Directory Structure Contract
+- modules/
+  - module-1-ros2/
+    - chapter-1-ros2-fundamentals.md
+    - chapter-2-ros2-communication.md
+    - chapter-3-python-agents-urdf.md

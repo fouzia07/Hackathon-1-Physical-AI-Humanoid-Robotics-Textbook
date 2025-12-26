@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- Spec-driven, deterministic generation: Ensure all processes are reproducible and auditable
+- Technical accuracy and verifiability: Verify all technical claims are accurate and verifiable
+- Clear pedagogical flow: Confirm content follows Concept → System → Practice progression
+- Modular, AI-native design: Validate architecture supports AI integration
+- RAG chatbot integrity: Verify chatbot only responds with indexed content
+- Content standards compliance: Ensure adherence to Markdown, Docusaurus, and deployment standards
 
 ## Project Structure
 

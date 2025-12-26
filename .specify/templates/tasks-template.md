@@ -150,12 +150,14 @@ Examples of foundational tasks (adjust based on your project):
 
 **Purpose**: Improvements that affect multiple user stories
 
-- [ ] TXXX [P] Documentation updates in docs/
-- [ ] TXXX Code cleanup and refactoring
+- [ ] TXXX [P] Documentation updates in docs/ ensuring technical accuracy
+- [ ] TXXX Code cleanup and refactoring for modular, AI-native design
 - [ ] TXXX Performance optimization across all stories
 - [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
 - [ ] TXXX Security hardening
-- [ ] TXXX Run quickstart.md validation
+- [ ] TXXX Run quickstart.md validation ensuring spec-driven generation
+- [ ] TXXX Verify content follows pedagogical flow (Concept → System → Practice)
+- [ ] TXXX Validate RAG chatbot only responds with indexed content
 
 ---
 

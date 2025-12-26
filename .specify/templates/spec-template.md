@@ -105,11 +105,12 @@
 <!--
   ACTION REQUIRED: Define measurable success criteria.
   These must be technology-agnostic and measurable.
+  Must align with constitution: book builds/deploy successfully, chatbot accurate retrieval
 -->
 
 ### Measurable Outcomes
 
-- **SC-001**: [Measurable metric, e.g., "Users can complete account creation in under 2 minutes"]
-- **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
-- **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
-- **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **SC-001**: [Measurable metric, e.g., "Book builds and deploys successfully to GitHub Pages"]
+- **SC-002**: [Measurable metric, e.g., "Chatbot retrieves and answers accurately from indexed content"]
+- **SC-003**: [User satisfaction metric, e.g., "Content follows pedagogical flow: Concept → System → Practice"]
+- **SC-004**: [Business metric, e.g., "Content maintains technical accuracy and verifiability"]
