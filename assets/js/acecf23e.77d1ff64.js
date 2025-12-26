@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkai_textbook=globalThis.webpackChunkai_textbook||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/Hackathon-1-Physical-AI-Humanoid-Robotics-Textbook/blog","blogTitle":"Blog","authorsListPath":"/Hackathon-1-Physical-AI-Humanoid-Robotics-Textbook/blog/authors"}')}}]);
