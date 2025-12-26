@@ -29,12 +29,8 @@ ENV/
 env/
 .env
 
-# Backend specific
-backend/.env
-backend/processing_state.db
-backend/.venv/
-backend/dist/
-backend/*.log
+# Backend folder (excluded from repo)
+backend/
 
 # IDEs
 .vscode/
